@@ -1,0 +1,34 @@
+name: snapshot
+
+on:
+  workflow_dispatch:
+
+jobs:
+  snapshot:
+    name: snapshot
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@master
+        with:
+          node-version: 16.x
+
+      - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> .npmrc
+        shell: bash
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - run: pnpm i --frozen-lockfile=false
+        shell: bash
+
+      - run: |
+          pnpm ci:version:snapshot
+          pnpm ci:publish:snapshot
+        shell: bash
