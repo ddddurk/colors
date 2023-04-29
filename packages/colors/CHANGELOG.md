@@ -1,5 +1,11 @@
 # @ddddurk/colors
 
+## 1.0.1
+
+### Patch Changes
+
+- cc9c6cc: Fix package.json
+
 ## 1.0.0
 
 ### Major Changes
