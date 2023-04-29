@@ -4,6 +4,7 @@
   "description": "Color scales 100-1000.",
   "keywords": [
     "colors",
+    "figma",
     "scales"
   ],
   "homepage": "https://github.com/ddddurk/colors",
@@ -12,7 +13,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ddddurk/colors"
+    "url": "https://github.com/ddddurk/colors",
+    "directory": "packages/colors"
   },
   "license": "MIT",
   "author": "ddddurk <ddddurk@proton.me>",
