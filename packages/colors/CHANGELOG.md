@@ -1,5 +1,11 @@
 # @ddddurk/colors
 
+## 1.0.2
+
+### Patch Changes
+
+- c41cc94: Update URL
+
 ## 1.0.1
 
 ### Patch Changes
