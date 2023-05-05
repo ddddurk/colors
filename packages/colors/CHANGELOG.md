@@ -1,5 +1,11 @@
 # @ddddurk/colors
 
+## 1.1.0
+
+### Minor Changes
+
+- 954d08b: Add colors.json
+
 ## 1.0.2
 
 ### Patch Changes
