@@ -1,5 +1,11 @@
 # @ddddurk/colors
 
+## 1.1.1
+
+### Patch Changes
+
+- 47ff5d8: Patch colors
+
 ## 1.1.0
 
 ### Minor Changes
