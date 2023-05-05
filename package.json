@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "turbo run build",
     "chore:changeset": "changeset",
     "chore:lint": "pnpm chore:lint:prettier && pnpm chore:lint:eslint",
     "chore:lint:eslint": "eslint --fix './**/*.{js,json,yaml}'",
     "chore:lint:prettier": "prettier --write --plugin-search-dir=. ./",
-    "ci:publish": "changeset publish",
-    "ci:publish:snapshot": "changeset publish --tag snapshot",
+    "ci:publish": "turbo run build && changeset publish",
+    "ci:publish:snapshot": "turbo run build && changeset publish --tag snapshot",
     "ci:version": "changeset version",
     "ci:version:snapshot": "changeset version --snapshot snapshot",
     "ddddurk": "ddddurk",
@@ -27,6 +28,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
-    "prettier-plugin-packagejson": "^2.4.3"
+    "prettier-plugin-packagejson": "^2.4.3",
+    "turbo": "^1.9.3"
   }
 }
