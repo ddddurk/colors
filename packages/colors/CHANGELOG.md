@@ -1,5 +1,11 @@
 # @ddddurk/colors
 
+## 1.1.2
+
+### Patch Changes
+
+- 59a2931: Update README.md
+
 ## 1.1.1
 
 ### Patch Changes
