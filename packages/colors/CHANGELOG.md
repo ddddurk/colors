@@ -1,5 +1,11 @@
 # @ddddurk/colors
 
+## 1.1.3
+
+### Patch Changes
+
+- 73116f6: Update homepage url
+
 ## 1.1.2
 
 ### Patch Changes
