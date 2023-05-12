@@ -5,4 +5,4 @@
 ## Resources
 
 - [Figma](https://www.figma.com/file/GZqD4uHXSGcULnx4jRdWUv)
-- [Preview Swatches](https://ddddurk.com/colors)
+- [Preview Swatches](https://ddddurk.com/work/colors)
