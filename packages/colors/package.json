@@ -7,7 +7,7 @@
     "figma",
     "scales"
   ],
-  "homepage": "https://ddddurk.com/work/colors",
+  "homepage": "https://ddddurk.com/code/colors",
   "bugs": {
     "url": "https://github.com/ddddurk/colors/issues"
   },
@@ -22,7 +22,10 @@
     "./colors"
   ],
   "scripts": {
-    "build": "ts-node ./scripts/compileColors.ts"
+    "build": "ts-node ./scripts/compileColors.ts",
+    "test:typecheck": "tsc --noEmit",
+    "ts-node": "ts-node",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@types/node": "^18.16.3",
